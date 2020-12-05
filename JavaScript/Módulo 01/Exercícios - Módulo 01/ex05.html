@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex05</title>
+</head>
+
+<body>
+    <script>
+        //Escreva uma função que produza o seguinte resultado:
+        //O Diego possui as habilidades: Javascript, ReactJS, Redux
+        //O Gabriel possui as habilidades: VueJS, Ruby on Rails, Elixir
+
+        //Dica: Para percorrer um vetor você deve utilizar a sintaxe for...of e para unir valores de um array
+        //com um separador utilize o join;
+
+
+        var usuarios = [
+            {
+                nome: 'Diego',
+                habilidades: ['Javascript', 'ReactJS', 'Redux']
+            },
+            {
+                nome: 'Gabriel',
+                habilidades: ['VueJS', 'Ruby on Rails', 'Elixir']
+            }
+        ]
+        //O loop for...of percorre objetos iterativos (incluindo Array, Map, Set, o objeto arguments e assim por diante), chamando uma função personalizada com instruções a serem executadas para o valor de cada objeto distinto.
+        
+        for (let usuario of usuarios) {
+            console.log('O ' + usuario.nome + ' possui as habilidades: ' + usuario.habilidades.join(", "));
+
+            // o join é um separador
+        }
+
+    </script>
+</body>
+
+</html>
