@@ -24,5 +24,6 @@
 - [Aula 09 - Intervalo e Timeout](https://github.com/miguelhp373/RocketSeat_Starter/tree/main/JavaScript/M%C3%B3dulo%2001/Aula%2009%20-%20Intervalo%20e%20Timeout)
 
 - [Exercícios - Módulo 01](https://github.com/miguelhp373/RocketSeat_Starter/tree/main/JavaScript/M%C3%B3dulo%2001/Exerc%C3%ADcios%20-%20M%C3%B3dulo%2001)
+
 ***
 ### Módulo 2
