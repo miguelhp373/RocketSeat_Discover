@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lidando Com ELementos</title>
+</head>
+<body>
+    <div id="app">
+        
+    </div>
+
+    <script>
+        var LinkElement = document.createElement('a');
+
+        LinkElement.setAttribute('href','https://rocketseat.com.br');
+
+        var TextElement = document.createTextNode('Acessar Curso Java Script');
+        LinkElement.appendChild(TextElement);
+
+        var containerElement = document.querySelector('#app');
+
+        containerElement.appendChild(LinkElement); 
+
+    </script>
+</body>
+</html>

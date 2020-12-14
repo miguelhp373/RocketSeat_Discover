@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 01</title>
+</head>
+<body>
+    <!-- Crie um botão que ao ser clicado cria um novo elemento em tela com a forma de um quadrado
+    vermelho com 100px de altura e largura. Sempre que o botão for clicado um novo quadrado deve
+    aparecer na tela. -->
+
+    <div id="app">
+        <button id="btnCreate">Criar Novo Elemento</button>
+        <div id="areaContainer">
+
+        </div>
+    </div>
+
+    <script>
+        var createElement = document.querySelector('#btnCreate')
+
+        createElement.onclick = function(){
+           var area = document.querySelector('#areaContainer') 
+           var square = document.createElement('div')
+           square.style.marginTop = '10px'
+           square.style.width = '100px'
+           square.style.height = '100px'
+           square.style.backgroundColor = '#f00'
+           area.appendChild(square)
+        }
+    </script>
+       
+</body>
+</html>

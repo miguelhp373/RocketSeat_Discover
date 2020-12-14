@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 03</title>
+</head>
+<body>
+<!--     A partir do seguinte vetor:
+var nomes = ["Diego", "Gabriel", "Lucas"];
+Preencha uma lista (<ul>) no HTML com os itens da seguinte forma:
+● Diego
+● Gabriel
+● Lucas -->
+
+<div id="corpo">
+
+</div>
+
+<script>
+    var nomes = ["Diego", "Gabriel", "Lucas"];
+    var app = document.querySelector("#corpo");
+    for(var cont = 0; cont <=2;cont++){
+        app.innerHTML += `
+        <ul>
+            <li>${nomes[cont]}</li>
+            <br>
+        </ul>`
+          }
+
+    
+    
+
+</script>
+
+</body>
+</html>
