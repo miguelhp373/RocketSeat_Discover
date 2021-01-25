@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child Combinator</title>
+</head>
+<style>
+/*Seleciona somente o elmento que é filho direto do pai*/
+/*Elementos depois do filho direto serão desconciderados*/
+body > ul > li{
+    color: red;
+}
+</style>
+<body>
+    <ul>
+        <li>item 1</li>
+        <ul>
+            <li>item2</li>
+        </ul>
+    </ul>
+</body>
+</html>

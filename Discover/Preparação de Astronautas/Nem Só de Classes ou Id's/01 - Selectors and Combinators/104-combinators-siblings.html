@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinators Siblings</title>
+</head>
+<style>
+    /*Adjascent sibling combinator*/
+    /*identificado pelo sinal de + entre dois irmãos*/
+    /*Seleciona somente o elemento do lado direito que é irmão direto na hierarquia*/
+
+    h1+p{
+        color: red;
+    }
+    button+button{
+        margin-left: 20px;
+    }
+
+    /*General sbling combinator*/
+    /*indentificado pelo sinal de ~ */
+    /*seleciona todos elementos irmãos*/
+    
+    h2 ~ p{
+        color: green;
+    }
+
+
+
+
+</style>
+<body>
+   <h1>titulo</h1>
+   <p>texto1</p>
+   <p>texto2</p> 
+   <button>ok</button>
+   <button>cancel</button>
+
+    <h2>Titulo 2</h2>
+    <p>texto</p>
+    <p>texto</p>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores</title>
+</head>
+<style>
+    h1 {
+        /*Selecionando Por TAG*/
+        color: red;
+    }
+
+    .paragrafos {
+        /*Selecionando Por CLASS*/
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    #autor {
+        /*Selecionando Por ID*/
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    [title] {
+        /*Selecionando os elementos que tem a tag title*/
+        color: blue;
+    }
+    h1:hover{/*Seletor pseudo-class estados*/
+        color: pink;
+    }
+    h1,p,#autor{/*Seleciona varios elementos e seletores*/
+        font-size: 27px;
+    }
+</style>
+
+<body>
+    <h1 title="titulo nivel 1">Titulo</h1>
+    <p class="paragrafos">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo enim quo quam distinctio maiores? Ut alias error
+        perspiciatis deserunt nostrum, ratione rerum pariatur hic, illum ipsam tempora omnis eius culpa.
+    </p>
+    <p class="paragrafos">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea illo quibusdam ipsum reiciendis quisquam?
+        Dignissimos possimus itaque, ea recusandae reiciendis molestias nostrum adipisci fugiat aperiam, culpa deserunt,
+        expedita accusamus odio.
+    </p>
+    <div id="autor">
+        &copy;miguelhp
+    </div>
+</body>
+
+</html>
