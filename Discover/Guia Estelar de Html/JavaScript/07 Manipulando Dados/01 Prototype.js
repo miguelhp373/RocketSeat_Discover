@@ -1,0 +1,1 @@
+console.log('maik'.length)//prototype são function prontas para facilitar a criação de funcionabilidades
